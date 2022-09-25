@@ -96,17 +96,17 @@ p{
 .foot h1{
     margin-bottom: 5px;
 }
-@media (max-width: 375px) {
+@media (max-width: 1080px) {
     .card{
-        width: 85%;
-        height: 67%;
+        width: 375px;
+        min-height: 67%;
     }
     .top-img{
-        top: -118%;
-        left: -199%;
+        top: -125%;
+        left: -36%;
     }
     .bottom-img{
-        right: -197%;
-        bottom: -113%;
+        right: -37%;
+        bottom: -111%;
     }
 }
