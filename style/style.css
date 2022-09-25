@@ -24,8 +24,8 @@
     bottom: -102%;
 }
 .card{
-    width: 28%;
-    height: 57%;
+    width: 380px;
+    height: 400px;
     background-color: white;
     position: absolute;
     left: 50%;
@@ -61,11 +61,9 @@
 }
 
 .cont img{
-    /*position: absolute;
-    top: -36%;*/
     border-radius: 50%;
     outline: 5px solid white;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 h1{
     font-size: 18px;
@@ -99,7 +97,7 @@ p{
 @media (max-width: 1080px) {
     .card{
         width: 375px;
-        min-height: 67%;
+        height: 400px;
     }
     .top-img{
         top: -125%;
